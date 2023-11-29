@@ -1,5 +1,6 @@
 package com.bbva.Transfer2.controller;
 
+import com.bbva.Transfer2.DTOs.TransferDTO;
 import com.bbva.Transfer2.model.Transfer;
 import com.bbva.Transfer2.service.TransferService;
 import io.swagger.v3.oas.annotations.Operation;
@@ -25,16 +26,16 @@ public class TransferController {
             @ApiResponse(responseCode = "404", description = "cuando no le mandas el id de la transferencia")
     })
     @GetMapping//expongo el servicio
-    public List<Transfer> getAllTransactions() {
+    public List<TransferDTO> getAllTransactions() {
         return transferService.getAllTransactions();
     }
     @GetMapping("/{transferId}")//expongo el servicio
-    public Transfer getBId(@PathVariable("transferId") Long transferId){
+    public TransferDTO getBId(@PathVariable("transferId") Long transferId){
         return transferService.getTransactionById(transferId);
     }
     @PostMapping
-    public void saveUpDate(@RequestBody Transfer transfer) {
-       transferService.saveTransaction(transfer);
+    public void saveUpDate(@RequestBody TransferDTO TransferDTO) {
+       transferService.saveTransaction(TransferDTO);
     }
     @DeleteMapping("/{id}")
     public void deleteTransfer(@PathVariable ("id")Long id) {
