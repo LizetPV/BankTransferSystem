@@ -8,6 +8,7 @@ import java.time.LocalDateTime;
 @Getter
 @Setter
 public class TransferDTO {
+
     private Long transferID;
 
     private String sourceAccount;

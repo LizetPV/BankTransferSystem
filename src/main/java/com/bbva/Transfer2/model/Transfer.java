@@ -27,4 +27,6 @@ public class Transfer {
     private LocalDateTime date;
     private String status;
     private String message;
+
+
 }

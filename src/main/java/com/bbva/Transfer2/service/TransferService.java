@@ -1,7 +1,7 @@
 package com.bbva.Transfer2.service;
 
 import com.bbva.Transfer2.DTOs.TransferDTO;
-import com.bbva.Transfer2.model.Transfer;
+
 
 import java.util.List;
 //aqui solo definimos los métodos

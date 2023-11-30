@@ -1,12 +1,14 @@
 package com.bbva.Transfer2.controller;
 
 import com.bbva.Transfer2.DTOs.TransferDTO;
-import com.bbva.Transfer2.model.Transfer;
 import com.bbva.Transfer2.service.TransferService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
+import jakarta.persistence.EntityNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -29,10 +31,17 @@ public class TransferController {
     public List<TransferDTO> getAllTransactions() {
         return transferService.getAllTransactions();
     }
-    @GetMapping("/{transferId}")//expongo el servicio
-    public TransferDTO getBId(@PathVariable("transferId") Long transferId){
-        return transferService.getTransactionById(transferId);
+     @GetMapping("/{id}")
+    public ResponseEntity<TransferDTO>getById(@PathVariable("id") Long id){
+        TransferDTO transferDTO;
+        try {
+            transferDTO = transferService.getTransactionById(id);
+            return new ResponseEntity<>(transferDTO, HttpStatus. OK);
+        } catch(EntityNotFoundException e) {
+            return new ResponseEntity(e.getMessage(), HttpStatus.NOT_FOUND);
+        }
     }
+
     @PostMapping
     public void saveUpDate(@RequestBody TransferDTO TransferDTO) {
        transferService.saveTransaction(TransferDTO);

@@ -43,6 +43,8 @@ public class TransferServiceImpl implements TransferService {
     public void saveTransaction(TransferDTO transferDTO) {
         // Mapea el TransferDTO a Transfer y luego guárdalo
         Transfer transfer = transferMapper.toTransferEntity(transferDTO);
+        System.out.println("TransferDTO: " + transferDTO);
+        System.out.println("Mapped Transfer: " + transfer);
         transferRepository.save(transfer);
 
     }
