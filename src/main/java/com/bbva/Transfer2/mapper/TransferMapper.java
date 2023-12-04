@@ -9,6 +9,7 @@ import org.mapstruct.Mapping;
 public interface TransferMapper {
     @Mapping(target = "transferID", source = "transfer.transferID")
     TransferDTO ToTransferDTO(Transfer transfer);
+
     @Mapping(target = "transferID", ignore = true) // Ignore transferID during mapping from DTO to entity
     Transfer toTransferEntity(TransferDTO transferDTO);
 
