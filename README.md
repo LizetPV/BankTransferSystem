@@ -209,8 +209,9 @@ Para acceder al código fuente y explorar más a fondo el proyecto, puede revisa
 Gracias por explorar esta documentación. Si tienes alguna pregunta o sugerencia, no dudes en contactarme.
 ---
 
-*Este README fue creado por [Yesenia Peche] - [lizet.peche@gmail.com] - [26/12/2023]*
-
+## **Contacto**
+- **Correo Electrónico:** [lizet.peche@gmail.com](mailto:lizet.peche@gmail.com)
+- **LinkedIn:** [Yesenia Peche](https://linkedin.com/in/ypeche-proyectos)
 
 
 
