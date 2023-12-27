@@ -204,7 +204,7 @@ json
 
 En este README, se ha detallado el proceso de creación del proyecto con Spring Initializr, la implementación de un sistema de transferencias interbancarias, el diseño de la base de datos con MySQL, así como la configuración y pruebas unitarias. Se han cubierto aspectos esenciales del desarrollo, desde la configuración de dependencias hasta la implementación de métodos y la realización de pruebas unitarias.
 
-Para acceder al código fuente y explorar más a fondo el proyecto, puede revisar el repositorio en GitHub: [Transfer2 Repository](https://github.com/LizetPV/Transfer2).
+Para acceder al código fuente y explorar más a fondo el proyecto, puede revisar el repositorio en GitHub: [Transfer2 Repository](https://github.com/LizetPV/BankTransferSystem).
 
 Gracias por explorar esta documentación. Si tienes alguna pregunta o sugerencia, no dudes en contactarme.
 ---
