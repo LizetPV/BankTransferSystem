@@ -147,6 +147,69 @@ json
 ![image](https://github.com/LizetPV/Transfer2/assets/122371050/c8ad7a41-4480-41f4-82c5-49e342e078ce)
 
 
+## **DISEÑO DE BASE DE DATOS CON MYSQL**
+
+### **Configurando dependencias para establecer la conexión con la base de datos:**
+![image](https://github.com/LizetPV/Transfer2/assets/122371050/76a555ab-f800-4b8a-afd9-b3bde789c596)
+
+### **Archivo Propertice:**
+![image](https://github.com/LizetPV/Transfer2/assets/122371050/b829186e-23de-4289-bfb7-33032dd4abfa)
+
+### **Definición de las entidades:**
+![image](https://github.com/LizetPV/Transfer2/assets/122371050/195a29f9-9d80-45cb-8ff2-0fc868982bb4)
+
+### **Definición de métodos:**
+
+![image](https://github.com/LizetPV/Transfer2/assets/122371050/1aa03a46-6dd6-4eb4-816a-6dba5647c083)
+
+### **Implementación de métodos:**
+
+![image](https://github.com/LizetPV/Transfer2/assets/122371050/92346505-758b-43dd-9dba-19409ecdd22d)
+
+![image](https://github.com/LizetPV/Transfer2/assets/122371050/abd91f03-d9b8-4140-b001-29d50e05f24b)
+
+![image](https://github.com/LizetPV/Transfer2/assets/122371050/2d416e89-dd65-46b7-8086-d5fbbcfffe50)
+
+### **Creación de mi BD en MYSQL:**
+![image](https://github.com/LizetPV/Transfer2/assets/122371050/8757c19c-64b7-46ea-8349-e1a3efd11115)
+
+### **Realizando peticiones GET Y POST en POSTMAN:**
+
+![image](https://github.com/LizetPV/Transfer2/assets/122371050/3225536a-bc55-4004-adf7-55d4f641e023)
+
+![image](https://github.com/LizetPV/Transfer2/assets/122371050/8b20cc89-b4ee-4c65-abaf-c11d4720b2f3)
+
+![image](https://github.com/LizetPV/Transfer2/assets/122371050/bf0b94cb-cf5e-4d04-829f-393d8304e66b)
+
+
+## **PRUEBAS UNITARIAS:**
+
+**Implementación de los test para controller:**
+
+![image](https://github.com/LizetPV/Transfer2/assets/122371050/70668935-e561-49d8-bbf0-002518a32b27)
+
+![image](https://github.com/LizetPV/Transfer2/assets/122371050/8087ffb2-80fc-49c7-863e-16a92688d564)
+
+![image](https://github.com/LizetPV/Transfer2/assets/122371050/71398421-9a94-46e8-8684-ec935b889d35)
+
+![image](https://github.com/LizetPV/Transfer2/assets/122371050/5c8d4264-e67f-4904-b941-de2164eebb3e)
+
+![image](https://github.com/LizetPV/Transfer2/assets/122371050/2c329ca7-5887-45c7-893f-a61ff4c6d9bc)
+
+![image](https://github.com/LizetPV/Transfer2/assets/122371050/f2bc1a29-2ce1-43b1-81db-2e50c15f3829)
+
+![image](https://github.com/LizetPV/Transfer2/assets/122371050/d66dc7bc-ad48-4f3d-af18-7e6eb40495fd)
+
+## **Conclusión**
+
+En este README, se ha detallado el proceso de creación del proyecto con Spring Initializr, la implementación de un sistema de transferencias interbancarias, el diseño de la base de datos con MySQL, así como la configuración y pruebas unitarias. Se han cubierto aspectos esenciales del desarrollo, desde la configuración de dependencias hasta la implementación de métodos y la realización de pruebas unitarias.
+
+Para acceder al código fuente y explorar más a fondo el proyecto, puede revisar el repositorio en GitHub: [Transfer2 Repository](https://github.com/LizetPV/Transfer2).
+
+Gracias por explorar esta documentación. Si tienes alguna pregunta o sugerencia, no dudes en contactarme.
+---
+
+*Este README fue creado por [Yesenia Peche] - [lizet.peche@gmail.com] - [26/12/2023]*
 
 
 
